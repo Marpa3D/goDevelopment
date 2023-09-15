@@ -4,6 +4,7 @@ package main
 import (
 	"fmt"
 	students "github.com/Marpa3D/goDevelopment/YandexLMS/StructLesson/Students"
+	"github.com/Marpa3D/goDevelopment/YandexLMS/StructLesson/rectangle"
 )
 
 func main() {
@@ -13,6 +14,10 @@ func main() {
 	}
 
 	newStudent.PrintDataStudent()
+	fmt.Printf("Тип студента: %T\n", newStudent)
 
-	fmt.Printf("%T", newStudent)
+	rec := rectangle.Rectangle{Heigth: 10, Width: 8}
+	area := rec.Area()
+	sW, sH := rec.Scale(8.0)
+	fmt.Printf("%.2f, %.2f: %.2f\n", area, sW, sH)
 }
