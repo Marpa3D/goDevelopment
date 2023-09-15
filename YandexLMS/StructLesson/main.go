@@ -11,5 +11,8 @@ func main() {
 		"Mark",
 		45,
 	}
-	fmt.Println(newStudent)
+
+	newStudent.PrintDataStudent()
+
+	fmt.Printf("%T", newStudent)
 }
