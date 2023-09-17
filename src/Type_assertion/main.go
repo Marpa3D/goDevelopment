@@ -21,7 +21,7 @@ func printType(t interface{}) {
 }
 
 func main() {
-	fmt.Println("opertator type assertion")
+	fmt.Println("Opertator type assertion")
 
 	printType("Это строка")
 	printType(true)
