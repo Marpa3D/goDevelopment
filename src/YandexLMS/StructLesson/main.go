@@ -3,8 +3,8 @@ package main
 
 import (
 	"fmt"
-	students "github.com/Marpa3D/goDevelopment/YandexLMS/StructLesson/Students"
-	"github.com/Marpa3D/goDevelopment/YandexLMS/StructLesson/rectangle"
+	students "github.com/Marpa3D/goDevelopment/src/YandexLMS/StructLesson/Students"
+	"github.com/Marpa3D/goDevelopment/src/YandexLMS/StructLesson/rectangle"
 )
 
 func main() {
