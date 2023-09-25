@@ -1,14 +1,24 @@
-// мМедицинская форма для кабинета врача
+// Медицинская форма для кабинета врача. Работа с перменными
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
+
+var (
+	Debug     bool      = false
+	Status    string    = "information"
+	StartTime time.Time = time.Now()
+)
 
 func main() {
 
-	var name, lastName string
-	var age int
-	var allergy bool
+	name, lastName := "Jhon", "Calhoun"
+	age := 48
+	pinataAllergy := false
 
-	fmt.Println(name, lastName, age, allergy)
+	fmt.Println(name, lastName, age, pinataAllergy)
+	fmt.Println(Debug, Status, StartTime)
 
 }
