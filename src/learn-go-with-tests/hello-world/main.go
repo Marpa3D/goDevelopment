@@ -3,8 +3,10 @@ package main
 
 import "fmt"
 
+const enHelloPrefix = "Hello, "
+
 func Hello(s string) string {
-	return "Hello, " + s + "!"
+	return enHelloPrefix + s + "!"
 }
 
 func main() {
