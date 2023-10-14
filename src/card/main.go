@@ -2,7 +2,7 @@
 package main
 
 func main() {
-	cards := newDeck()
+	cards := NewDeck()
 
-	cards.print()
+	cards.Print()
 }
